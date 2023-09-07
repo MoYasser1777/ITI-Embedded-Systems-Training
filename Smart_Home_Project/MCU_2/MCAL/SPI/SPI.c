@@ -72,7 +72,6 @@ void SPI_voidInitSlave(void)
 
 	/* SPI Enable */
 	SET_BIT(SPCR, SPCR_SPE);
-
 }
 
 void SPI_voidTransmit(u8 Cpy_data)
